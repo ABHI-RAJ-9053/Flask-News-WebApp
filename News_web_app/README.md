@@ -8,7 +8,6 @@ A simple Flask-based web application that fetches and displays the latest news u
 
 - Fetches top news articles dynamically from an API
 - Responsive and user-friendly UI using HTML & CSS
-- Organized using Flask’s standard MVC structure
 - Clean and minimal design for reading comfort
 
 ---
