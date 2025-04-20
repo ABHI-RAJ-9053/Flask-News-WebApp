@@ -1,0 +1,71 @@
+/* Global Body Styling */
+body {
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    margin-top: 50px;
+}
+
+/* News Card Styling */
+.news-card {
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    height: 100%;
+    transition: transform 0.3s, box-shadow 0.3s ease-in-out;
+}
+
+.news-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Image Styling */
+.card-img-top {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+/* Category Dropdown Form Styling */
+.category-form {
+    margin-bottom: 30px;
+}
+
+.category-form select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    width: 200px;
+}
+
+.category-form label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Header Styling */
+h1 {
+    color: #2c3e50;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Card Body Styling */
+.card-body {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .category-form select {
+        width: 100%;
+    }
+}
