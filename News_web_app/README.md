@@ -17,7 +17,7 @@ A simple Flask-based web application that fetches and displays the latest news u
 
 - **Backend**: Python, Flask
 - **Frontend**: HTML5, CSS3 (can be extended with Bootstrap)
-- **API**: NewsAPI (or similar)
-- **Hosting**: Render (planned)
+- **API**: NewsAPI 
+- **Hosting**: Render
 
 -------
